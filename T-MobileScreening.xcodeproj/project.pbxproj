@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53908A1FA2498E73A5650331 /* Pods_T_MobileScreeningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B099A81EA54032C07C39C3CB /* Pods_T_MobileScreeningTests.framework */; };
+		F4B3935F42D500BA1C1AA89E /* Pods_T_MobileScreening.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C8E487260D36B06CBC6FE /* Pods_T_MobileScreening.framework */; };
+		F505D8792430CFF70024FBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8782430CFF70024FBCA /* AppDelegate.swift */; };
+		F505D87B2430CFF70024FBCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D87A2430CFF70024FBCA /* SceneDelegate.swift */; };
+		F505D8802430CFF70024FBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505D87E2430CFF70024FBCA /* Main.storyboard */; };
+		F505D8822430CFFA0024FBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F505D8812430CFFA0024FBCA /* Assets.xcassets */; };
+		F505D8852430CFFA0024FBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505D8832430CFFA0024FBCA /* LaunchScreen.storyboard */; };
+		F505D8A92430D2090024FBCA /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8A82430D2090024FBCA /* UserSearchViewController.swift */; };
+		F505D8AB2430D3150024FBCA /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8AA2430D3150024FBCA /* UserTableViewCell.swift */; };
+		F505D8AE2430D4DC0024FBCA /* GHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8AD2430D4DC0024FBCA /* GHUser.swift */; };
+		F505D8B02430D4F80024FBCA /* GHUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8AF2430D4F80024FBCA /* GHUserRepository.swift */; };
+		F505D8B22430D5A70024FBCA /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8B12430D5A70024FBCA /* GitHubAPI.swift */; };
+		F505D8B52430D8E30024FBCA /* UserSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F505D8B42430D8E30024FBCA /* UserSearchViewModel.swift */; };
+		F537CCC52431D4DA00F791BD /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537CCC42431D4DA00F791BD /* UISearchBar+Extension.swift */; };
+		F538E67F2432457100845D7F /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538E67E2432457100845D7F /* ConnectivityManager.swift */; };
+		F538E6812432471B00845D7F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538E6802432471B00845D7F /* UIViewController+Extension.swift */; };
+		F5E048652430F3EE001DB8A5 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E048642430F3EE001DB8A5 /* UserDetailsViewController.swift */; };
+		F5E04867243106CB001DB8A5 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E04866243106CB001DB8A5 /* UserDetailTableViewCell.swift */; };
+		F5E0486924310AAB001DB8A5 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0486824310AAB001DB8A5 /* UserDetailViewModel.swift */; };
+		F6F14E7643F59D8E45E6CA9D /* Pods_T_MobileScreening_T_MobileScreeningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9366EF6B84300F53391CBD /* Pods_T_MobileScreening_T_MobileScreeningUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F505D88C2430CFFA0024FBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F505D86D2430CFF70024FBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F505D8742430CFF70024FBCA;
+			remoteInfo = "T-MobileScreening";
+		};
+		F505D8972430CFFA0024FBCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F505D86D2430CFF70024FBCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F505D8742430CFF70024FBCA;
+			remoteInfo = "T-MobileScreening";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C08F3A1E4398A93CF78BA86 /* Pods-T-MobileScreeningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreeningTests.debug.xcconfig"; path = "Target Support Files/Pods-T-MobileScreeningTests/Pods-T-MobileScreeningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE11F1FFACDA19EB0B3F163 /* Pods-T-MobileScreeningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreeningTests.release.xcconfig"; path = "Target Support Files/Pods-T-MobileScreeningTests/Pods-T-MobileScreeningTests.release.xcconfig"; sourceTree = "<group>"; };
+		7205E865C9DD714B8A902E5E /* Pods-T-MobileScreening-T-MobileScreeningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreening-T-MobileScreeningUITests.debug.xcconfig"; path = "Target Support Files/Pods-T-MobileScreening-T-MobileScreeningUITests/Pods-T-MobileScreening-T-MobileScreeningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		748C8E487260D36B06CBC6FE /* Pods_T_MobileScreening.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_MobileScreening.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		967FB878A87B453E49436B79 /* Pods-T-MobileScreening.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreening.debug.xcconfig"; path = "Target Support Files/Pods-T-MobileScreening/Pods-T-MobileScreening.debug.xcconfig"; sourceTree = "<group>"; };
+		9E9366EF6B84300F53391CBD /* Pods_T_MobileScreening_T_MobileScreeningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_MobileScreening_T_MobileScreeningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA731742F20D0F97334B6755 /* Pods-T-MobileScreening-T-MobileScreeningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreening-T-MobileScreeningUITests.release.xcconfig"; path = "Target Support Files/Pods-T-MobileScreening-T-MobileScreeningUITests/Pods-T-MobileScreening-T-MobileScreeningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B099A81EA54032C07C39C3CB /* Pods_T_MobileScreeningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_MobileScreeningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505D8752430CFF70024FBCA /* T-MobileScreening.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-MobileScreening.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505D8782430CFF70024FBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F505D87A2430CFF70024FBCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F505D87F2430CFF70024FBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F505D8812430CFFA0024FBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F505D8842430CFFA0024FBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F505D8862430CFFA0024FBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F505D88B2430CFFA0024FBCA /* T-MobileScreeningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "T-MobileScreeningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505D8962430CFFA0024FBCA /* T-MobileScreeningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "T-MobileScreeningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505D8A82430D2090024FBCA /* UserSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		F505D8AA2430D3150024FBCA /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		F505D8AD2430D4DC0024FBCA /* GHUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUser.swift; sourceTree = "<group>"; };
+		F505D8AF2430D4F80024FBCA /* GHUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHUserRepository.swift; sourceTree = "<group>"; };
+		F505D8B12430D5A70024FBCA /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		F505D8B42430D8E30024FBCA /* UserSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchViewModel.swift; sourceTree = "<group>"; };
+		F537CCC42431D4DA00F791BD /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		F538E67E2432457100845D7F /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		F538E6802432471B00845D7F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F5E048642430F3EE001DB8A5 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		F5E04866243106CB001DB8A5 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F5E0486824310AAB001DB8A5 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		FEFE6F324E04DF4C49A4B3B0 /* Pods-T-MobileScreening.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-MobileScreening.release.xcconfig"; path = "Target Support Files/Pods-T-MobileScreening/Pods-T-MobileScreening.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F505D8722430CFF70024FBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3935F42D500BA1C1AA89E /* Pods_T_MobileScreening.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8882430CFFA0024FBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53908A1FA2498E73A5650331 /* Pods_T_MobileScreeningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8932430CFFA0024FBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F14E7643F59D8E45E6CA9D /* Pods_T_MobileScreening_T_MobileScreeningUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4513F32FAD8C57E923BEF9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967FB878A87B453E49436B79 /* Pods-T-MobileScreening.debug.xcconfig */,
+				FEFE6F324E04DF4C49A4B3B0 /* Pods-T-MobileScreening.release.xcconfig */,
+				7205E865C9DD714B8A902E5E /* Pods-T-MobileScreening-T-MobileScreeningUITests.debug.xcconfig */,
+				AA731742F20D0F97334B6755 /* Pods-T-MobileScreening-T-MobileScreeningUITests.release.xcconfig */,
+				1C08F3A1E4398A93CF78BA86 /* Pods-T-MobileScreeningTests.debug.xcconfig */,
+				6FE11F1FFACDA19EB0B3F163 /* Pods-T-MobileScreeningTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63678A858C1A1756FB110F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				748C8E487260D36B06CBC6FE /* Pods_T_MobileScreening.framework */,
+				9E9366EF6B84300F53391CBD /* Pods_T_MobileScreening_T_MobileScreeningUITests.framework */,
+				B099A81EA54032C07C39C3CB /* Pods_T_MobileScreeningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F505D86C2430CFF70024FBCA = {
+			isa = PBXGroup;
+			children = (
+				F505D8772430CFF70024FBCA /* T-MobileScreening */,
+				F505D8762430CFF70024FBCA /* Products */,
+				4513F32FAD8C57E923BEF9E2 /* Pods */,
+				63678A858C1A1756FB110F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F505D8762430CFF70024FBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8752430CFF70024FBCA /* T-MobileScreening.app */,
+				F505D88B2430CFFA0024FBCA /* T-MobileScreeningTests.xctest */,
+				F505D8962430CFFA0024FBCA /* T-MobileScreeningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F505D8772430CFF70024FBCA /* T-MobileScreening */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AC2430D4AD0024FBCA /* Model */,
+				F538E6832432491900845D7F /* View */,
+				F505D8B32430D8B90024FBCA /* ViewModel */,
+				F505D8B62430DED50024FBCA /* Controller */,
+				F538E6822432490A00845D7F /* Utility */,
+				F505D8812430CFFA0024FBCA /* Assets.xcassets */,
+				F505D8862430CFFA0024FBCA /* Info.plist */,
+			);
+			path = "T-MobileScreening";
+			sourceTree = "<group>";
+		};
+		F505D8AC2430D4AD0024FBCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AD2430D4DC0024FBCA /* GHUser.swift */,
+				F505D8AF2430D4F80024FBCA /* GHUserRepository.swift */,
+				F505D8B12430D5A70024FBCA /* GitHubAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F505D8B32430D8B90024FBCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8B42430D8E30024FBCA /* UserSearchViewModel.swift */,
+				F5E0486824310AAB001DB8A5 /* UserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F505D8B62430DED50024FBCA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8782430CFF70024FBCA /* AppDelegate.swift */,
+				F505D87A2430CFF70024FBCA /* SceneDelegate.swift */,
+				F505D8A82430D2090024FBCA /* UserSearchViewController.swift */,
+				F5E048642430F3EE001DB8A5 /* UserDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F538E6822432490A00845D7F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F538E67E2432457100845D7F /* ConnectivityManager.swift */,
+				F537CCC42431D4DA00F791BD /* UISearchBar+Extension.swift */,
+				F538E6802432471B00845D7F /* UIViewController+Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F538E6832432491900845D7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F505D8AA2430D3150024FBCA /* UserTableViewCell.swift */,
+				F5E04866243106CB001DB8A5 /* UserDetailTableViewCell.swift */,
+				F505D87E2430CFF70024FBCA /* Main.storyboard */,
+				F505D8832430CFFA0024FBCA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F505D8742430CFF70024FBCA /* T-MobileScreening */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505D89F2430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreening" */;
+			buildPhases = (
+				3165207733DB52D751F51D74 /* [CP] Check Pods Manifest.lock */,
+				F505D8712430CFF70024FBCA /* Sources */,
+				F505D8722430CFF70024FBCA /* Frameworks */,
+				F505D8732430CFF70024FBCA /* Resources */,
+				89CD7800DEFB624D6ECB05A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T-MobileScreening";
+			productName = "T-MobileScreening";
+			productReference = F505D8752430CFF70024FBCA /* T-MobileScreening.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F505D88A2430CFFA0024FBCA /* T-MobileScreeningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505D8A22430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreeningTests" */;
+			buildPhases = (
+				81705EB594C623F5560F5850 /* [CP] Check Pods Manifest.lock */,
+				F505D8872430CFFA0024FBCA /* Sources */,
+				F505D8882430CFFA0024FBCA /* Frameworks */,
+				F505D8892430CFFA0024FBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F505D88D2430CFFA0024FBCA /* PBXTargetDependency */,
+			);
+			name = "T-MobileScreeningTests";
+			productName = "T-MobileScreeningTests";
+			productReference = F505D88B2430CFFA0024FBCA /* T-MobileScreeningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F505D8952430CFFA0024FBCA /* T-MobileScreeningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505D8A52430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreeningUITests" */;
+			buildPhases = (
+				CBB3928879B4B2428C7FD46D /* [CP] Check Pods Manifest.lock */,
+				F505D8922430CFFA0024FBCA /* Sources */,
+				F505D8932430CFFA0024FBCA /* Frameworks */,
+				F505D8942430CFFA0024FBCA /* Resources */,
+				F62952CF1647C0CAD64FFA53 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F505D8982430CFFA0024FBCA /* PBXTargetDependency */,
+			);
+			name = "T-MobileScreeningUITests";
+			productName = "T-MobileScreeningUITests";
+			productReference = F505D8962430CFFA0024FBCA /* T-MobileScreeningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F505D86D2430CFF70024FBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "T-Mobile";
+				TargetAttributes = {
+					F505D8742430CFF70024FBCA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F505D88A2430CFFA0024FBCA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F505D8742430CFF70024FBCA;
+					};
+					F505D8952430CFFA0024FBCA = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F505D8742430CFF70024FBCA;
+					};
+				};
+			};
+			buildConfigurationList = F505D8702430CFF70024FBCA /* Build configuration list for PBXProject "T-MobileScreening" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F505D86C2430CFF70024FBCA;
+			productRefGroup = F505D8762430CFF70024FBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F505D8742430CFF70024FBCA /* T-MobileScreening */,
+				F505D88A2430CFFA0024FBCA /* T-MobileScreeningTests */,
+				F505D8952430CFFA0024FBCA /* T-MobileScreeningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F505D8732430CFF70024FBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505D8852430CFFA0024FBCA /* LaunchScreen.storyboard in Resources */,
+				F505D8822430CFFA0024FBCA /* Assets.xcassets in Resources */,
+				F505D8802430CFF70024FBCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8892430CFFA0024FBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8942430CFFA0024FBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3165207733DB52D751F51D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T-MobileScreening-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81705EB594C623F5560F5850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T-MobileScreeningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89CD7800DEFB624D6ECB05A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening/Pods-T-MobileScreening-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening/Pods-T-MobileScreening-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening/Pods-T-MobileScreening-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB3928879B4B2428C7FD46D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T-MobileScreening-T-MobileScreeningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62952CF1647C0CAD64FFA53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening-T-MobileScreeningUITests/Pods-T-MobileScreening-T-MobileScreeningUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening-T-MobileScreeningUITests/Pods-T-MobileScreening-T-MobileScreeningUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T-MobileScreening-T-MobileScreeningUITests/Pods-T-MobileScreening-T-MobileScreeningUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F505D8712430CFF70024FBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505D8B02430D4F80024FBCA /* GHUserRepository.swift in Sources */,
+				F505D8AE2430D4DC0024FBCA /* GHUser.swift in Sources */,
+				F505D8792430CFF70024FBCA /* AppDelegate.swift in Sources */,
+				F537CCC52431D4DA00F791BD /* UISearchBar+Extension.swift in Sources */,
+				F538E6812432471B00845D7F /* UIViewController+Extension.swift in Sources */,
+				F5E0486924310AAB001DB8A5 /* UserDetailViewModel.swift in Sources */,
+				F505D8A92430D2090024FBCA /* UserSearchViewController.swift in Sources */,
+				F538E67F2432457100845D7F /* ConnectivityManager.swift in Sources */,
+				F505D87B2430CFF70024FBCA /* SceneDelegate.swift in Sources */,
+				F5E04867243106CB001DB8A5 /* UserDetailTableViewCell.swift in Sources */,
+				F505D8AB2430D3150024FBCA /* UserTableViewCell.swift in Sources */,
+				F505D8B22430D5A70024FBCA /* GitHubAPI.swift in Sources */,
+				F505D8B52430D8E30024FBCA /* UserSearchViewModel.swift in Sources */,
+				F5E048652430F3EE001DB8A5 /* UserDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8872430CFFA0024FBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505D8922430CFFA0024FBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F505D88D2430CFFA0024FBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F505D8742430CFF70024FBCA /* T-MobileScreening */;
+			targetProxy = F505D88C2430CFFA0024FBCA /* PBXContainerItemProxy */;
+		};
+		F505D8982430CFFA0024FBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F505D8742430CFF70024FBCA /* T-MobileScreening */;
+			targetProxy = F505D8972430CFFA0024FBCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F505D87E2430CFF70024FBCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505D87F2430CFF70024FBCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F505D8832430CFFA0024FBCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505D8842430CFFA0024FBCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F505D89D2430CFFA0024FBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F505D89E2430CFFA0024FBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F505D8A02430CFFA0024FBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967FB878A87B453E49436B79 /* Pods-T-MobileScreening.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreening/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreening";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F505D8A12430CFFA0024FBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFE6F324E04DF4C49A4B3B0 /* Pods-T-MobileScreening.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreening/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreening";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F505D8A32430CFFA0024FBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C08F3A1E4398A93CF78BA86 /* Pods-T-MobileScreeningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreeningTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreeningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T-MobileScreening.app/T-MobileScreening";
+			};
+			name = Debug;
+		};
+		F505D8A42430CFFA0024FBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE11F1FFACDA19EB0B3F163 /* Pods-T-MobileScreeningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreeningTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreeningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T-MobileScreening.app/T-MobileScreening";
+			};
+			name = Release;
+		};
+		F505D8A62430CFFA0024FBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7205E865C9DD714B8A902E5E /* Pods-T-MobileScreening-T-MobileScreeningUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreeningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreeningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "T-MobileScreening";
+			};
+			name = Debug;
+		};
+		F505D8A72430CFFA0024FBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA731742F20D0F97334B6755 /* Pods-T-MobileScreening-T-MobileScreeningUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "T-MobileScreeningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "T-Mobile.T-MobileScreeningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "T-MobileScreening";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F505D8702430CFF70024FBCA /* Build configuration list for PBXProject "T-MobileScreening" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505D89D2430CFFA0024FBCA /* Debug */,
+				F505D89E2430CFFA0024FBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505D89F2430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreening" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505D8A02430CFFA0024FBCA /* Debug */,
+				F505D8A12430CFFA0024FBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505D8A22430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreeningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505D8A32430CFFA0024FBCA /* Debug */,
+				F505D8A42430CFFA0024FBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505D8A52430CFFA0024FBCA /* Build configuration list for PBXNativeTarget "T-MobileScreeningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505D8A62430CFFA0024FBCA /* Debug */,
+				F505D8A72430CFFA0024FBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F505D86D2430CFF70024FBCA /* Project object */;
+}
